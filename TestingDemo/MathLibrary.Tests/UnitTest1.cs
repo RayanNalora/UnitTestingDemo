@@ -34,7 +34,7 @@ public class UnitTest1
     }
 
     [Fact]
-    public void Divide_NegativeNumberAndPositiveNumber_ReturnsNegative()
+    public void Divide_NegativeAndPositive_ReturnsNegative()
     {
         int result = Calculator.Divide(-9, 3);
         Assert.Equal(-3 ,result);
